@@ -17,7 +17,7 @@ Gender : sélection (classes vues par le LabelEncoder).
 
 CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
 
-# Pipeline d’inférence (ordre recommandé)
+# Pipeline d’inférence 
 
 Lecture des valeurs saisies dans l’interface Streamlit.
 
