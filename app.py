@@ -7,7 +7,8 @@ from tensorflow.keras.models import load_model
 import pickle
 
 # Load the trained model, scaler, onehot
-model=load_model("model.h5")
+#model=load_model("model.h5")
+model = load_model("model.h5", compile=False)
 
 with open("onehot_encoder_geo.pkl","rb") as file:
     label_encoder_geo=pickle.load(file)
